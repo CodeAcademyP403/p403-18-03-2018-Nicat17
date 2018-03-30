@@ -1,0 +1,680 @@
+/*  Header Start */
+*{
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+body{
+    box-sizing:border-box;
+}
+.container{
+    width: 90%;
+    height: auto;
+    clear: both;
+}
+header{
+    width: 100%;
+}
+header .head{
+    margin-right: 0px;
+    background-color: #211f1e;
+    height: 40px;
+}
+header .head .Left a i{
+    color: #d0cdcd;
+    margin-right: 20px;
+    position: relative;
+    font-size: 1.2em;
+}
+header .head .Left a:first-of-type i::after{
+    content: "0";
+    text-align: center;
+    line-height: 16px;
+    font-size: 0.8em;
+    display: block;
+    position: absolute;
+    top:-5px;
+    left: 14px;
+    width: 16px;
+    height: 16px;
+    background-color: #ef4b54;
+    border-radius: 10px;
+}
+header .head .Left a:hover{
+    cursor: pointer;
+}
+
+/* Header End */
+
+/* Nav Start */
+.nav{
+    background-image:url('../img/coffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    object-fit: contain;
+}
+.nav nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(59,55,53,0.52);
+}
+.nav .Top{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+.nav nav div[class*="col-"]{
+    width: 100%;
+    height: 50px;
+}
+.nav nav .logo a {
+    width: 20%;
+    display: inline-block
+}
+.nav nav .logo a img{
+    height: 45px;
+    display: inline-block;
+}
+.nav nav .logo h1{
+    width: 60%;
+    display: inline-block;
+    font-size: 1.7em;
+    margin-left: 20px;
+    padding-bottom:0px;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    margin-top:7px;
+}
+.nav nav .logo h1:hover{
+    cursor: pointer;
+}
+.nav nav .navigat{
+    position: relative;
+    z-index: 400;
+
+}
+.nav nav .navigat .navbar{
+    width: 100%;
+    background: transparent;
+    height: 40px;
+}
+
+
+.nav nav .navigat button{
+    background: white;
+}
+.nav nav .navigat ul li{
+    margin-left: 5px;
+    height: 40px;
+    padding: 0px;
+    width: auto;
+    display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(211, 198, 198);
+    transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color: rgb(255, 110, 118);
+}
+
+/* Nav End */
+
+/* ImgText */
+aside{
+    clear: both;
+    width: 100%;
+}
+aside .aside{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+aside .imgText {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+aside .imgText h1{
+    width: 100%;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 6em;
+    border-bottom: 4px solid white;
+}
+aside .imgText hr{
+    width: 100%;
+    margin: 0px;
+    border:1px solid white;
+}
+aside .imgText h4{
+    letter-spacing: 4px;
+    font-size: 2em;
+    font-weight: normal;
+    font-style:inherit;
+    margin: 38px 0px;
+}
+aside .imgText p{
+    font-size: 1.2em;
+    font-style: inherit;
+}
+aside .imgText p:nth-last-child(1) span{
+    transition: all 0.3s ease-in-out;
+}
+aside .imgText p:nth-last-child(1) span:hover{
+    color: rgb(255, 110, 118);
+    cursor: pointer;
+}
+/* ImgText End*/
+
+/* Section 1 Start */
+.section1{
+    clear: both;
+    width: 100%;
+    height: 400px;
+}
+.section1 .firstSection{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section1 .firstSection .col-8{
+    text-align: center;
+}
+.section1 .firstSection .col-8 h1{
+    width: 100%;
+    font-size:4em;
+    font-weight: normal;
+    font-style: initial;
+}
+.section1 .firstSection .col-8 hr{
+    margin: 0 auto;
+    width: 15%;
+    margin-top: 15px;
+}
+.section1 .firstSection .col-8 hr:first-of-type{
+    border: 4px solid black;
+}
+.section1 .firstSection .col-8 hr:last-of-type{
+    border: 2px solid black;
+}
+
+/* Section 1 End */
+
+/* firstImgGroup Start */
+.section2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.section2 .firstImgGroup{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.section2 .firstImgGroup .first{
+    width: 95%;
+    height: 500px;
+    background: url('../img/first2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.section2 .firstImgGroup .second{
+    width: 95%;
+    height: 500px;
+    background: url('../img/first1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+.section2 .firstImgGroup .third{
+    width: 95%;
+    height: 500px;
+    background: url('../img/first3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+    
+}
+.section2 .firstImgGroup .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: beige;
+
+}
+.section2 .firstImgGroup .col-12 h1{
+    width: 100%;
+    font-size:4em;
+    font-weight: normal;
+    font-style: initial;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.section2 .firstImgGroup .col-12 h1:hover{
+    color: rgb(255, 110, 118);
+}
+.section2 .firstImgGroup .col-12 hr{
+    margin: 0 auto;
+    width: 15%;
+    margin-top: 15px;
+}
+.section2 .firstImgGroup .col-12 hr:first-of-type{
+    border: 4px solid white;
+}
+.section2 .firstImgGroup .col-12 hr:last-of-type{
+    border: 2px solid white;
+}
+.section2 .firstImgGroup .col-12 p{
+    margin-top: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+/* firstImgGroup 2 End */
+
+/* Section 3 Start */
+.section3{
+    clear: both;
+    width: 100%;
+    height: 200px;
+}
+.section3 .thirdSection{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section3 .thirdSection .col-8{
+    text-align: center;
+}
+.section3 .thirdSection .col-8 h1{
+    width: 100%;
+    font-size:4em;
+    font-weight: normal;
+    font-style: initial;
+}
+.section3 .thirdSection .col-8 hr{
+    margin: 0 auto;
+    width: 15%;
+    margin-top: 15px;
+}
+.section3 .thirdSection .col-8 hr:first-of-type{
+    border: 4px solid black;
+}
+.section3 .thirdSection .col-8 hr:last-of-type{
+    border: 2px solid black;
+}
+
+/* Section 3 End */
+
+/* Section4 Start */
+.section4{
+    width: 100%;
+    height: auto;
+}
+.section4 .secondImgGroup{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+.section4 .secondImgGroup .col-md-3{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+.section4 .secondImgGroup .col-md-3 div[class*="emp"]{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+
+}
+
+.section4 .secondImgGroup .col-md-3 div[class*="emp"] img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    
+}
+.section4 .secondImgGroup .col-md-3 div[class*="emp a"]::after{
+    content: "SALE";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 40px;
+    height: 20px;
+    background: rgb(255, 110, 118);
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.8em;
+}
+.section4 .secondImgGroup .col-md-3>.emp>div[class*="add"]{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+.section4 .secondImgGroup .col-md-3 .emp{
+    width: 100%;
+    height: 100%;
+}
+.section4 .secondImgGroup .col-md-3 div[class*="add"] i{
+    position: relative;
+    top: 50%;
+    left: 0;
+    font-size: 1.2em;
+    color: rgb(255, 110, 118);
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    transform: translate(0%,-50%);
+}
+.section4 .secondImgGroup .col-md-3 div[class*="emp"]:hover div[class*="add"]{
+    display: block;
+    background: rgba(172, 167, 165, 0.52);
+}
+/*  */
+.section4 .secondImgGroup .col-md-3 .comment{
+    text-align: center;
+    margin-top: 20px;
+}
+.section4 .secondImgGroup .col-md-3 .comment a{
+    display: block;
+    color: #423930;
+    transition: all 0.2s ease-in-out;
+}
+.section4 .secondImgGroup .col-md-3 .comment a:hover{
+    text-decoration: none;
+    color: rgb(255, 110, 118);
+}
+.section4 .secondImgGroup .col-md-3 .comment>span{
+    display: block;
+    color: #423930;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.section4 .secondImgGroup .col-md-3 .comment>span>span{
+    color: rgb(255, 110, 118);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:  line-through;
+}
+.section4 .secondImgGroup .col-md-3 .comment>button{
+    background: rgb(255, 110, 118);
+    border: none;
+}
+.section4 .secondImgGroup .col-md-3 .comment>button:hover{
+    background: #423930;
+}
+
+/* Section4 End */
+
+/* Section5 Start */
+.section5{
+    background: url('../img/kofe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    
+}
+.section5 section{
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.section5 section .asid{
+    display: flex;
+    
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    height: 700px;
+}
+.section5 .asid .imgText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px auto;
+}
+.section5 .asid .imgText i{
+    font-size: 4em;
+    color: rgba(223, 230, 223, 0.5);
+}
+.section5 .asid .imgText h1{
+    width: 100%;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 6em;
+}
+.section5 .asid .imgText hr{
+    display: block;
+    width: 10%;
+    margin: 0px;
+    border:2px solid white;
+    margin: 5px 0px;
+
+}
+.section5 .asid .imgText button{
+    display: inline-block;
+}
+.section5 .asid .imgText p{
+    margin: 50px 0px;
+    font-size: 1.2em;
+    font-style: inherit;
+}
+
+/* Section5 End*/
+
+/* Slider Start */
+.slider{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+.slider .text{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.slider .text .main{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+.slider .text .main hr{
+    margin: 0 auto;
+    width: 10%;
+    margin-top: 15px;
+}
+.slider .text .main hr:first-of-type{
+    border: 4px solid black;
+}
+.slider .text .main hr:last-of-type{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.slider .text .main p{
+    padding: 0px 20px;
+    color: #a1a1a1;
+    font-size: 1.2em;
+}
+.slider .text .main>span{
+    cursor: pointer;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: #a1a1a1;
+    font-size: 5em;
+}
+.slider .text .main>span>span{
+    color: black;
+}   
+/* Slider End */
+
+
+/* EndImg Start */
+.endimg{
+    margin-top: 50px;
+    width: 100%;
+    height:auto;
+}
+.endimg .row{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.endimg .row .pic{
+    width: 25%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.endimg .row .pic figure{
+    background:  rgba(36, 37, 36, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 400px;
+    display: none;
+}
+.endimg .row .pic i{
+    font-size: 2.5em;
+    color: blanchedalmond;
+
+}
+.endimg .row .pic:hover figure{
+   display: inline-block;
+   cursor: pointer;
+}
+.endimg .row .a{
+    background: url('../img/third1.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.endimg .row .b{
+    background: url('../img/third2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.endimg .row .c{
+    background: url('../img/third3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.endimg .row .d{
+    background: url('../img/third4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* EndImg End */
+
+/* Footer Start  */
+footer{
+    width: 100%;
+    height: 400px;
+    background: #211f1e;
+}
+footer>.row{
+    margin: 0px;
+    padding: 0px;
+}
+footer>.row>.article{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 1.4em;
+    color: whitesmoke;
+    font-family: 'IBM Plex Serif', serif;
+    word-spacing: 10px;
+
+}
+footer>.row>.article p:last-of-type{
+    font-size: 0.6em;
+}
+footer>.row>.article p:nth-of-type(3)>span{
+    cursor: pointer;
+}
+footer>.row>.article p:nth-of-type(4) span:hover{
+    color: rgb(255, 110, 118);
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Footer End  */
+
+/* Fixed Start */
+.fixed{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: -20px;
+    right: 10px;
+    cursor: pointer;
+}
+.fixed:hover i{
+    color: rgb(158, 157, 157);
+}
+.fixed i{
+    font-size: 3.7em;
+    color: rgb(255, 110, 118);
+}
+#top{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/* Fixed End */
+
+
